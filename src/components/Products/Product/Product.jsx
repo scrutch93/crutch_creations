@@ -20,11 +20,11 @@ const Product = ({ product}) => {
                     <Typography variant="h5">
                     {product.price} 
                     </Typography>
-                    <Typography variant="body2" color="textSecondary">{product.description}</Typography>
-                    {product.price} 
                   
                 </div>
-
+                <Typography variant="body2" color="textSecondary">{product.description}</Typography>
+                    
+                  
             </CardContent>
            
                     <CardActions disableSpacing className ={classes.cardActions}>
