@@ -1,9 +1,10 @@
 import React from 'react';
+import Products from './components/Products/Products';
 
-function App() {
+const App =()  =>{
   return (
     <div>
-      CrutchCreations
+      <Products />
     </div>
   );
 }
